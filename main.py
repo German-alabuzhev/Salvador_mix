@@ -73,7 +73,7 @@ for event in longpoll.listen():
         if not message:
             vk.messages.send(
                 user_id=user_id,
-                message="Пожалуйста, используй кнопки на клавиатуре для выбора!",
+                message="Пожалуйста, используйте кнопки на клавиатуре для выбора!",
                 random_id=0,
                 keyboard=get_current_keyboard(user_id)
             )
