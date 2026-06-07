@@ -9,7 +9,8 @@ import csv
 from typing import List, Dict
 import requests
 
-# URL для экспорта Google Таблицы в формате CSV
+# URL для экспорта Google Таблицы в формате CSV (по-хорошему конечно убрать её в CONFIG но база данных из рандомных табаков,
+# поэтому на приватность не влияет, при необходимости можно заменить своей ссылкой)
 URL = (
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vSRlweNhHHRmHv9PjT0SMtL3J1kGopfKUg"
     "_dNgQE8VxcKNFj5JzzgFUOi4JIZhwfjEAJSHnzHE3SAPL/pub?output=csv"
